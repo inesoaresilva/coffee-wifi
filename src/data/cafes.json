@@ -1,6 +1,7 @@
 [
     {
         "name":"Bee Garden",
+        "slug": "bee-garden",
         "imageUrl":"/images/bee-garden.webp",
         "neighbourhood":"Downtown",
         "wifi": {
@@ -19,6 +20,7 @@
     },
     {
         "name":"Pátio Bonjardim",
+        "slug":"patio-bonjardim",
         "imageUrl":"/images/patio-bonjardim.webp",
         "neighbourhood":"Downtown",
         "wifi": {
@@ -38,6 +40,7 @@
     },
     {
         "name":"Yanetta",
+        "slug":"yanetta",
         "imageUrl":"/images/yanetta.webp",
         "neighbourhood":"Downtown",
         "wifi": {
