@@ -1,24 +1,7 @@
 import styles from './CafeCard.module.css';
 import Image from 'next/image';
+import { Cafe } from '@/types/cafe';
 
-type Cafe = {
-    name: string,
-    imageUrl: string,
-    neighbourhood: string,
-    wifi: {
-        speed: string,
-        uploadSpeed: string,
-        downloadSpeed: string,
-    },
-    socketsAvailable: string,
-    noiseLevel: string,
-    comfort: string,
-    light: string,
-    tags: string[],
-    pricePoint: number,
-    lastVisit: string,
-    review: string,
-}
 
 type CafeCardProps = {
     cafe: Cafe;
