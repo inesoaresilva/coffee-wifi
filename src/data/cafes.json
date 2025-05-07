@@ -56,6 +56,25 @@
         "pricePoint": 2,
         "lastVisit": "2025-05-04",
         "review": "This Ukrainian café offers a brunch-focused menu, many sandwiches, cakes, and some traditional Ukrainian sweets and dishes. There's a small terrace out front with three tables, perfect for a sunny day. The interior is not very big either but it is cozy and there are two window tables which are always my go-to spot when I’m alone."
+    },
+    {
+        "name":"Mel Living Nordic Shop & Café",
+        "slug":"mel-living",
+        "imageUrl":"/images/mel-living.webp",
+        "neighbourhood":"Bonfim",
+        "wifi": {
+            "speed": "Very Fast",
+            "uploadSpeed": "106.1",
+            "downloadSpeed":"419.0" 
+        },
+        "socketsAvailable": "yes",
+        "noiseLevel": "Background music",
+        "comfort": "Spacious tables",
+        "light": "Bright inside",
+        "tags": ["Near the metro", "City center", "Quiet", "Cozy"],
+        "pricePoint": 3,
+        "lastVisit": "2025-05-07",
+        "review": "A very inspiring café rooted in the Nordic lifestyle. It also functions as a shop, filled with Scandinavian-inspired items—from hand creams and candles to ceramics and books. The menu is simple, focused on coffee (a bit more on the pricier side compared to other spots), and you can also enjoy some Nordic pastries. For now, it's definitely a unique concept in Porto. I enjoyed my time there—it was quiet, and the internet was very good."
     }
 
 ]
