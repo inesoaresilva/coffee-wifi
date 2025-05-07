@@ -1,0 +1,58 @@
+[
+    {
+        "name":"Bee Garden",
+        "imageUrl":"/images/bee-garden.webp",
+        "neighbourhood":"Downtown",
+        "wifi": {
+            "speed": "Very Fast",
+            "uploadSpeed": "154.5",
+            "downloadSpeed":"937.9" 
+        },
+        "socketsAvailable": "yes",
+        "noiseLevel": "Background music",
+        "comfort": "Comfy chairs",
+        "light": "Shaded terrace",
+        "tags": ["Near the metro", "Terrace", "City center"],
+        "pricePoint": 2,
+        "lastVisit": "2025-05-03",
+        "review": "The space is huge — it has two floors, and a third one was under renovation when I visited. There’s also a spacious terrace.\nWhat I loved most was the menu: they focus on healthier options and use homemade products like butter, jam, and granola. You’ll find breakfast and brunch menus, as well as lunch dishes like bagels, toasts, and burgers.\nA personal highlight: two little tables by the window. I sat there working while watching the rain outside — the perfect cozy spot. They’re very laptop-friendly — in fact, they mentioned the second floor is often seen as their co-working area."
+    },
+    {
+        "name":"Pátio Bonjardim",
+        "imageUrl":"/images/patio-bonjardim.webp",
+        "neighbourhood":"Downtown",
+        "wifi": {
+            "speed": "Fast",
+            "uploadSpeed": "54.4",
+            "downloadSpeed":"77.3" 
+        },
+        "socketsAvailable": "yes",
+        "noiseLevel": "Background music",
+        "comfort": "Spacious tables",
+        "light": "Shaded terrace",
+        "tags": ["Near the metro", "Garden", "City center", "Lunch menu", "Spacious tables"],
+        "pricePoint": 2,
+        "lastVisit": "2025-05-02",
+        "review": "\"It feels like a hidden gem — literally.\\n\\\nTo enter, you pass through a shop filled with knobs and home furniture — lots of charming pieces.\\n\\\nAt the back, you’ll find a café with a big, lovely garden where birds sing and you almost forget you’re in the city center.\\n\\\nJust note it gets quite full during lunchtime.\"\n"
+
+    },
+    {
+        "name":"Yanetta",
+        "imageUrl":"/images/yanetta.webp",
+        "neighbourhood":"Downtown",
+        "wifi": {
+            "speed": "Fast",
+            "uploadSpeed": "14.0",
+            "downloadSpeed":"114.1" 
+        },
+        "socketsAvailable": "yes",
+        "noiseLevel": "Background music",
+        "comfort": "Comfy chairs",
+        "light": "Shaded terrace",
+        "tags": ["Near the metro", "City center", "Terrace"],
+        "pricePoint": 2,
+        "lastVisit": "2025-05-04",
+        "review": "This Ukrainian café offers a brunch-focused menu, many sandwiches, cakes, and some traditional Ukrainian sweets and dishes. There's a small terrace out front with three tables, perfect for a sunny day. The interior is not very big either but it is cozy and there are two window tables which are always my go-to spot when I’m alone."
+    }
+
+]
