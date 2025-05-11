@@ -1,80 +1,106 @@
 [
-    {
-        "name":"Bee Garden",
-        "slug": "bee-garden",
-        "imageUrl":"/images/bee-garden.webp",
-        "neighbourhood":"Downtown",
-        "wifi": {
-            "speed": "Very Fast",
-            "uploadSpeed": "154.5",
-            "downloadSpeed":"937.9" 
-        },
-        "socketsAvailable": "yes",
-        "noiseLevel": "Background music",
-        "comfort": "Comfy chairs",
-        "light": "Shaded terrace",
-        "tags": ["Near the metro", "Terrace", "City center"],
-        "pricePoint": 2,
-        "lastVisit": "2025-05-03",
-        "review": "The space is huge — it has two floors, and a third one was under renovation when I visited.There’s also a spacious terrace.\nBesides having lots of space, I also loved their menu: they focus on healthier options and use homemade products like butter, jam, and granola.\nYou’ll find breakfast and brunch menus, as well as lunch dishes like bagels, toasts, and burgers.\nA personal highlight: two little tables by the window. I sat there working while watching the rain outside — the perfect cozy spot.\nThey’re very laptop-friendly — in fact, they mentioned the second floor is often seen as their co-working area."
+  {
+    "name": "Bee Garden",
+    "slug": "bee-garden",
+    "imageUrl": "/images/bee-garden.webp",
+    "images": [
+      {
+        "src": "/images/bee-garden/entrance.webp",
+        "description": "Entrance of the café with a little terrace in front"
+      },
+      {
+        "src": "/images/bee-garden/interior-1.webp",
+        "description": "Cozy window table in the first floor"
+      },
+      {
+        "src": "/images/bee-garden/second-floor-2.webp",
+        "description": "Second floor workspace with plenty of seating"
+      },
+      {
+        "src": "/images/bee-garden/second-floor-3.webp",
+        "description": "Another bar room in the second floor"
+      },
+      {
+        "src": "/images/bee-garden/terrace.webp",
+        "description": "View of the big terrace they have in the back"
+      }
+    ],
+    "neighbourhood": "Downtown",
+    "wifi": {
+      "speed": "Very Fast",
+      "uploadSpeed": "154.5",
+      "downloadSpeed": "937.9"
     },
-    {
-        "name":"Pátio Bonjardim",
-        "slug":"patio-bonjardim",
-        "imageUrl":"/images/patio-bonjardim.webp",
-        "neighbourhood":"Downtown",
-        "wifi": {
-            "speed": "Fast",
-            "uploadSpeed": "54.4",
-            "downloadSpeed":"77.3" 
-        },
-        "socketsAvailable": "yes",
-        "noiseLevel": "Background music",
-        "comfort": "Spacious tables",
-        "light": "Shaded terrace",
-        "tags": ["Near the metro", "Garden", "City center", "Lunch menu", "Spacious tables"],
-        "pricePoint": 2,
-        "lastVisit": "2025-05-02",
-        "review": "It feels like a hidden gem — literally.\nTo enter, you pass through a shop filled with knobs and home furniture — lots of charming pieces.\nAt the back, you’ll find a café with a big, lovely garden where birds sing and you almost forget you’re in the city center.\nJust note it gets quite full during lunchtime."
-
+    "socketsAvailable": "yes",
+    "noiseLevel": "Background music",
+    "comfort": "Comfy chairs",
+    "light": "Shaded terrace",
+    "tags": ["Near the metro", "Terrace", "City center"],
+    "pricePoint": 2,
+    "lastVisit": "2025-05-03",
+    "review": "The space is huge — it has two floors, and a third one was under renovation when I visited.There’s also a spacious terrace.\nBesides having lots of space, I also loved their menu: they focus on healthier options and use homemade products like butter, jam, and granola.\nYou’ll find breakfast and brunch menus, as well as lunch dishes like bagels, toasts, and burgers.\nA personal highlight: two little tables by the window. I sat there working while watching the rain outside — the perfect cozy spot.\nThey’re very laptop-friendly — in fact, they mentioned the second floor is often seen as their co-working area."
+  },
+  {
+    "name": "Pátio Bonjardim",
+    "slug": "patio-bonjardim",
+    "imageUrl": "/images/patio-bonjardim.webp",
+    "neighbourhood": "Downtown",
+    "wifi": {
+      "speed": "Fast",
+      "uploadSpeed": "54.4",
+      "downloadSpeed": "77.3"
     },
-    {
-        "name":"Yanetta",
-        "slug":"yanetta",
-        "imageUrl":"/images/yanetta.webp",
-        "neighbourhood":"Downtown",
-        "wifi": {
-            "speed": "Fast",
-            "uploadSpeed": "14.0",
-            "downloadSpeed":"114.1" 
-        },
-        "socketsAvailable": "yes",
-        "noiseLevel": "Background music",
-        "comfort": "Comfy chairs",
-        "light": "Shaded terrace",
-        "tags": ["Near the metro", "City center", "Terrace"],
-        "pricePoint": 2,
-        "lastVisit": "2025-05-04",
-        "review": "This Ukrainian café offers a brunch-focused menu, many sandwiches, cakes, and some traditional Ukrainian sweets and dishes.\nThere's a small terrace in front with three tables, perfect for a sunny day.\nThe interior is not very big either but it is cozy and there are two window tables which are always my go-to spot when I’m alone."
+    "socketsAvailable": "yes",
+    "noiseLevel": "Background music",
+    "comfort": "Spacious tables",
+    "light": "Shaded terrace",
+    "tags": [
+      "Near the metro",
+      "Garden",
+      "City center",
+      "Lunch menu",
+      "Spacious tables"
+    ],
+    "pricePoint": 2,
+    "lastVisit": "2025-05-02",
+    "review": "It feels like a hidden gem — literally.\nTo enter, you pass through a shop filled with knobs and home furniture — lots of charming pieces.\nAt the back, you’ll find a café with a big, lovely garden where birds sing and you almost forget you’re in the city center.\nJust note it gets quite full during lunchtime."
+  },
+  {
+    "name": "Yanetta",
+    "slug": "yanetta",
+    "imageUrl": "/images/yanetta.webp",
+    "neighbourhood": "Downtown",
+    "wifi": {
+      "speed": "Fast",
+      "uploadSpeed": "14.0",
+      "downloadSpeed": "114.1"
     },
-    {
-        "name":"Mel Living Nordic Shop & Café",
-        "slug":"mel-living",
-        "imageUrl":"/images/mel-living.webp",
-        "neighbourhood":"Bonfim",
-        "wifi": {
-            "speed": "Very Fast",
-            "uploadSpeed": "106.1",
-            "downloadSpeed":"419.0" 
-        },
-        "socketsAvailable": "yes",
-        "noiseLevel": "Background music",
-        "comfort": "Spacious tables",
-        "light": "Bright inside",
-        "tags": ["Near the metro", "City center", "Quiet", "Cozy"],
-        "pricePoint": 3,
-        "lastVisit": "2025-05-07",
-        "review": "A very inspiring café rooted in the Nordic lifestyle.\nIt also functions as a shop, filled with Scandinavian-inspired items—from hand creams and candles to ceramics and books.\nThe menu is simple, focused on coffee (a bit more on the pricier side compared to other spots), and you can also enjoy some Nordic pastries.\nFor now, it's definitely a unique concept in Porto.\nI enjoyed my time there — it was quiet, and the internet was very good."
-    }
-
+    "socketsAvailable": "yes",
+    "noiseLevel": "Background music",
+    "comfort": "Comfy chairs",
+    "light": "Shaded terrace",
+    "tags": ["Near the metro", "City center", "Terrace"],
+    "pricePoint": 2,
+    "lastVisit": "2025-05-04",
+    "review": "This Ukrainian café offers a brunch-focused menu, many sandwiches, cakes, and some traditional Ukrainian sweets and dishes.\nThere's a small terrace in front with three tables, perfect for a sunny day.\nThe interior is not very big either but it is cozy and there are two window tables which are always my go-to spot when I’m alone."
+  },
+  {
+    "name": "Mel Living Nordic Shop & Café",
+    "slug": "mel-living",
+    "imageUrl": "/images/mel-living.webp",
+    "neighbourhood": "Bonfim",
+    "wifi": {
+      "speed": "Very Fast",
+      "uploadSpeed": "106.1",
+      "downloadSpeed": "419.0"
+    },
+    "socketsAvailable": "yes",
+    "noiseLevel": "Background music",
+    "comfort": "Spacious tables",
+    "light": "Bright inside",
+    "tags": ["Near the metro", "City center", "Quiet", "Cozy"],
+    "pricePoint": 3,
+    "lastVisit": "2025-05-07",
+    "review": "A very inspiring café rooted in the Nordic lifestyle.\nIt also functions as a shop, filled with Scandinavian-inspired items—from hand creams and candles to ceramics and books.\nThe menu is simple, focused on coffee (a bit more on the pricier side compared to other spots), and you can also enjoy some Nordic pastries.\nFor now, it's definitely a unique concept in Porto.\nI enjoyed my time there — it was quiet, and the internet was very good."
+  }
 ]
