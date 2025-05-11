@@ -91,6 +91,28 @@
     "name": "Yanetta",
     "slug": "yanetta",
     "imageUrl": "/images/yanetta.webp",
+    "images": [
+      {
+        "src": "/images/yanetta/yanetta.webp",
+        "description": "The cafe counter with plenty of cake options."
+      },
+      {
+        "src": "/images/yanetta/entrance.webp",
+        "description": "The entrance of the cafe."
+      },
+      {
+        "src": "/images/yanetta/interior-1.webp",
+        "description": "Plenty of books and magazines you can pick from."
+      },
+      {
+        "src": "/images/yanetta/window-table.webp",
+        "description": "My work setup at one of the window tables, accompanied by a cappuccino and a bit of sunshine."
+      },
+      {
+        "src": "/images/yanetta/terrace.webp",
+        "description": "The view to the terrace from my window table."
+      }
+    ],
     "neighbourhood": "Downtown",
     "wifi": {
       "speed": "Fast",
