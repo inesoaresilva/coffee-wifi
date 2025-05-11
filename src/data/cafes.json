@@ -132,6 +132,32 @@
     "name": "Mel Living Nordic Shop & Café",
     "slug": "mel-living",
     "imageUrl": "/images/mel-living.webp",
+    "images": [
+      {
+        "src": "/images/mel-living/mel-living.webp",
+        "description": "All the table options you have at the cafe."
+      },
+      {
+        "src": "/images/mel-living/entrance.webp",
+        "description": "The entrance of the cafe."
+      },
+      {
+        "src": "/images/mel-living/interior-1.webp",
+        "description": "Filled with Scandinavian-inspired pieces — from candles to ceramics — all available at the store."
+      },
+      {
+        "src": "/images/mel-living/interior-2.webp",
+        "description": "The cafe counter."
+      },
+      {
+        "src": "/images/mel-living/interior-3.webp",
+        "description": "There are some magazines available for you to read."
+      },
+      {
+        "src": "/images/mel-living/interior-4.webp",
+        "description": "My work setup in the company of a cute chai tea set."
+      }
+    ],
     "neighbourhood": "Bonfim",
     "wifi": {
       "speed": "Very Fast",
