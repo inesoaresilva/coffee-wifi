@@ -44,6 +44,28 @@
     "name": "Pátio Bonjardim",
     "slug": "patio-bonjardim",
     "imageUrl": "/images/patio-bonjardim.webp",
+    "images": [
+      {
+        "src": "/images/patio-bonjardim/entrance.webp",
+        "description": "View of the store and the entrance to the cafe"
+      },
+      {
+        "src": "/images/patio-bonjardim/entrance-2.webp",
+        "description": "Entrance to the first floor of the cafe"
+      },
+      {
+        "src": "/images/patio-bonjardim/interior-1.webp",
+        "description": "View of the first floor"
+      },
+      {
+        "src": "/images/patio-bonjardim/cafe.webp",
+        "description": "The cozy cafe counter with vintage decor and beautiful portuguese tiles"
+      },
+      {
+        "src": "/images/patio-bonjardim/garden.webp",
+        "description": "The spacious garden in the back that makes forget you are in the city"
+      }
+    ],
     "neighbourhood": "Downtown",
     "wifi": {
       "speed": "Fast",
