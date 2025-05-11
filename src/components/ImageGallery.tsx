@@ -18,15 +18,19 @@ function ImageGallery({ images }: ImageGalleryProps) {
 
   return (
     <>
-      <div className={styles.imageWrapper}>
-        <Image
-          className={styles.image}
-          fill
-          key={key}
-          alt={description ?? ''}
-          src={src}
-        />
-      </div>
+      <figure className={styles.figure}>
+        <div className={styles.imageWrapper}>
+          <Image
+            className={styles.image}
+            fill
+            key={key}
+            alt={description ?? ''}
+            src={src}
+          />
+        </div>
+
+        {description && <figcaption>{description}</figcaption>}
+      </figure>
       <button disabled={index === 0} onClick={() => setIndex(index - 1)}>
         ⬅️
       </button>
