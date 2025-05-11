@@ -1,29 +1,29 @@
 .overview {
-    display: grid;
-    gap: 0px 12px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-        'header header'
-        'image info';
+  display: grid;
+  gap: 0px 12px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'header header'
+    'image info';
 }
 
 .name {
-    margin: 0;
-    grid-area: header;
+  margin: 0;
+  grid-area: header;
 }
 
 .imgWrapper {
-    max-height: 250px;
-    aspect-ratio: 2/3;
-    width: 100%;
-    position: relative;
+  max-height: 250px;
+  aspect-ratio: 2/3;
+  width: 100%;
+  position: relative;
 }
 
 .img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .info {
-    grid-area: info;
-    text-align: left;
+  grid-area: info;
+  text-align: left;
 }

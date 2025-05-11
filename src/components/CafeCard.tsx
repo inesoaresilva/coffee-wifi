@@ -1,14 +1,13 @@
-import styles from './CafeCard.module.css';
-import Image from 'next/image';
-import { Cafe } from '@/types/cafe';
-
+import styles from './CafeCard.module.css'
+import Image from 'next/image'
+import { Cafe } from '@/types/cafe'
 
 type CafeCardProps = {
-    cafe: Cafe;
+  cafe: Cafe
 }
 
-function CafeCard({cafe}: CafeCardProps ) {
-  const { name, imageUrl, neighbourhood, wifi } = cafe;
+function CafeCard({ cafe }: CafeCardProps) {
+  const { name, imageUrl, neighbourhood, wifi } = cafe
 
   return (
     <div className={styles.overview}>
@@ -21,7 +20,7 @@ function CafeCard({cafe}: CafeCardProps ) {
         <p>🛜 {wifi.speed}</p>
       </div>
     </div>
-  );
+  )
 }
 
-export default CafeCard;
+export default CafeCard
