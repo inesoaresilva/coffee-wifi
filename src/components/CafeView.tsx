@@ -1,18 +1,19 @@
-import { Cafe } from "@/types/cafe";
-import styles from "./CafeView.module.css"
+import { Cafe } from '@/types/cafe'
+import styles from './CafeView.module.css'
+import ImageGallery from './ImageGallery'
 
 type CafeViewProps = {
-    cafe: Cafe
+  cafe: Cafe
 }
 
-function CafeView({cafe}: CafeViewProps) {
-    return(
-        <>
-            <h2>{cafe.name}</h2>
-            <p className={styles.review}>{cafe.review}</p>
-        </>
-    )
-
+function CafeView({ cafe }: CafeViewProps) {
+  return (
+    <>
+      <h2>{cafe.name}</h2>
+      <p className={styles.review}>{cafe.review}</p>
+      {cafe.images?.length > 0 && <ImageGallery images={cafe.images} />}
+    </>
+  )
 }
 
-export default CafeView;
+export default CafeView
