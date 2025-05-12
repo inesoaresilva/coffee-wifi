@@ -3,7 +3,6 @@ import { Image } from './image'
 export interface Cafe {
   name: string
   slug: string
-  imageUrl: string
   images: Image[]
   neighbourhood: string
   wifi: {

@@ -2,8 +2,11 @@
   {
     "name": "Bee Garden",
     "slug": "bee-garden",
-    "imageUrl": "/images/bee-garden.webp",
     "images": [
+      {
+        "src": "/images/bee-garden/bee-garden.webp",
+        "description": "View of one of the rooms in the second floor"
+      },
       {
         "src": "/images/bee-garden/entrance.webp",
         "description": "Entrance of the café with a little terrace in front"
@@ -43,8 +46,11 @@
   {
     "name": "Pátio Bonjardim",
     "slug": "patio-bonjardim",
-    "imageUrl": "/images/patio-bonjardim.webp",
     "images": [
+      {
+        "src": "/images/patio-bonjardim/patio-bonjardim.webp",
+        "description": "View of the entrance to the garden"
+      },
       {
         "src": "/images/patio-bonjardim/entrance.webp",
         "description": "View of the store and the entrance to the cafe"
@@ -90,7 +96,6 @@
   {
     "name": "Yanetta",
     "slug": "yanetta",
-    "imageUrl": "/images/yanetta.webp",
     "images": [
       {
         "src": "/images/yanetta/yanetta.webp",
@@ -131,7 +136,6 @@
   {
     "name": "Mel Living Nordic Shop & Café",
     "slug": "mel-living",
-    "imageUrl": "/images/mel-living.webp",
     "images": [
       {
         "src": "/images/mel-living/mel-living.webp",
