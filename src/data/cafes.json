@@ -29,6 +29,7 @@
       }
     ],
     "neighbourhood": "Downtown",
+    "googleMapsUrl": "https://maps.app.goo.gl/GAJTTA8SS8jq69tZA",
     "wifi": {
       "speed": "Very Fast",
       "uploadSpeed": "154.5",
@@ -73,6 +74,7 @@
       }
     ],
     "neighbourhood": "Downtown",
+    "googleMapsUrl": "https://maps.app.goo.gl/uavWvkAegdksHYuE6",
     "wifi": {
       "speed": "Fast",
       "uploadSpeed": "54.4",
@@ -119,6 +121,7 @@
       }
     ],
     "neighbourhood": "Downtown",
+    "googleMapsUrl": "https://maps.app.goo.gl/AMRerEBzLJEsEWoc8",
     "wifi": {
       "speed": "Fast",
       "uploadSpeed": "14.0",
@@ -163,6 +166,7 @@
       }
     ],
     "neighbourhood": "Bonfim",
+    "googleMapsUrl": "https://maps.app.goo.gl/BKaU1PS6uSg9BDTn7",
     "wifi": {
       "speed": "Very Fast",
       "uploadSpeed": "106.1",

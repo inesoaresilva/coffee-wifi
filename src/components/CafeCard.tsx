@@ -1,13 +1,14 @@
 import styles from './CafeCard.module.css'
 import Image from 'next/image'
 import { Cafe } from '@/types/cafe'
+import Link from 'next/link'
 
 type CafeCardProps = {
   cafe: Cafe
 }
 
 function CafeCard({ cafe }: CafeCardProps) {
-  const { name, images, neighbourhood, wifi } = cafe
+  const { name, images, neighbourhood, wifi, googleMapsUrl } = cafe
 
   return (
     <div className={styles.overview}>
@@ -23,7 +24,13 @@ function CafeCard({ cafe }: CafeCardProps) {
       <div className={styles.info}>
         <p>📍{neighbourhood}</p>
         <p>🛜 {wifi.speed}</p>
+        <a target="_blank" rel="noopener noreferrer" href={googleMapsUrl}>
+          Google maps
+        </a>
       </div>
+      <Link className={styles.details} href={`/cafes/${cafe.slug}`}>
+        ➕ details
+      </Link>
     </div>
   )
 }

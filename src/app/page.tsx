@@ -1,6 +1,5 @@
 import cafes from '@/data/cafes.json'
 import CafeCard from '@/components/CafeCard'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,11 +9,7 @@ export default function Home() {
       </header>
       <main>
         {cafes.map((cafe) => {
-          return (
-            <Link href={`/cafes/${cafe.slug}`} key={cafe.slug}>
-              <CafeCard cafe={cafe} />
-            </Link>
-          )
+          return <CafeCard key={cafe.slug} cafe={cafe} />
         })}
       </main>
     </>
