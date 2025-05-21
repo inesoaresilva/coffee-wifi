@@ -4,6 +4,8 @@
   --primary: #283a53;
   --secondary: #61778f;
   --accent: #aba073;
+  --accent-light: #bcb38f;
+  --accent-dark: #5e5636;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +27,10 @@ body {
 h1,
 h2 {
   font-family: var(--font-yeseva), serif;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 body {

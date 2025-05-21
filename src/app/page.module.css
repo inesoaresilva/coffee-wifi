@@ -1,0 +1,7 @@
+.list {
+  margin: 24px 24px 0;
+}
+
+.list > * {
+  margin-bottom: 40px;
+}

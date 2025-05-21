@@ -1,16 +1,32 @@
 .overview {
   display: grid;
+  grid-gap: 0px;
+  border: 1px solid var(--background);
+  box-shadow: 8px 8px var(--accent-dark);
+  background-color: var(--accent-light);
   gap: 0px 12px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     'header header'
-    'image info'
-    'image details';
+    'image info';
 }
 
 .name {
-  margin: 0;
+  padding: 8px;
+  color: var(--background);
+}
+
+.nameWrapper {
+  background-color: var(--accent);
   grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--background);
+}
+
+.nameWrapper > svg {
+  margin: 8px 8px 8px 0;
 }
 
 .imgWrapper {
@@ -23,14 +39,21 @@
 
 .img {
   object-fit: cover;
+  border-right: 1px solid var(--background);
 }
 
 .info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 8px;
   grid-area: info;
   text-align: left;
+  color: var(--background);
 }
 
-.details {
-  align-self: self-end;
-  grid-area: details;
+.infoItem {
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }

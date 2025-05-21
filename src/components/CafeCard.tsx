@@ -2,35 +2,47 @@ import styles from './CafeCard.module.css'
 import Image from 'next/image'
 import { Cafe } from '@/types/cafe'
 import Link from 'next/link'
+import ExpandIcon from './icons/ExpandIcon'
+import LocationIcon from './icons/LocationIcon'
+import WifiIcon from './icons/WifiIcon'
 
 type CafeCardProps = {
   cafe: Cafe
 }
 
 function CafeCard({ cafe }: CafeCardProps) {
-  const { name, images, neighbourhood, wifi, googleMapsUrl } = cafe
+  const { name, images, neighbourhood, wifi } = cafe
 
   return (
     <div className={styles.overview}>
-      <h2 className={styles.name}>{name}</h2>
+      <Link
+        href={`/cafes/${cafe.slug}`}
+        className={styles.nameWrapper}
+        aria-label={`See more details about ${cafe.name}`}
+      >
+        <h2 className={styles.name}>{name}</h2>
+        <ExpandIcon />
+      </Link>
       <div className={styles.imgWrapper}>
-        <Image
-          fill
-          className={styles.img}
-          src={images[0].src}
-          alt={cafe.name}
-        />
+        {images && images.length > 0 && (
+          <Image
+            fill
+            className={styles.img}
+            src={images[0].src}
+            alt={cafe.name}
+          />
+        )}
       </div>
       <div className={styles.info}>
-        <p>📍{neighbourhood}</p>
-        <p>🛜 {wifi.speed}</p>
-        <a target="_blank" rel="noopener noreferrer" href={googleMapsUrl}>
-          Google maps
-        </a>
+        <div className={styles.infoItem}>
+          <LocationIcon />
+          <p>{neighbourhood}</p>
+        </div>
+        <div className={styles.infoItem}>
+          <WifiIcon />
+          <p>{wifi.speed}</p>
+        </div>
       </div>
-      <Link className={styles.details} href={`/cafes/${cafe.slug}`}>
-        ➕ details
-      </Link>
     </div>
   )
 }
