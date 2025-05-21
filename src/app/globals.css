@@ -22,6 +22,11 @@ body {
   overflow-x: hidden;
 }
 
+h1,
+h2 {
+  font-family: var(--font-yeseva), serif;
+}
+
 body {
   color: var(--text);
   background: var(--background);
