@@ -8,10 +8,12 @@ export default function Home() {
       <header>
         <h1>Coffee & Wifi</h1>
       </header>
-      <main className={styles.list}>
-        {cafes.map((cafe) => {
-          return <CafeCard key={cafe.slug} cafe={cafe} />
-        })}
+      <main>
+        <div className={styles.list}>
+          {cafes.map((cafe) => {
+            return <CafeCard key={cafe.slug} cafe={cafe} />
+          })}
+        </div>
       </main>
     </>
   )

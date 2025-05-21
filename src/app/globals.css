@@ -41,6 +41,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

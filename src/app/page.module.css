@@ -1,4 +1,6 @@
 .list {
+  width: 100%;
+  max-width: 750px;
   margin: 24px 24px 0;
 }
 
