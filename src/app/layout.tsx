@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Josefin_Sans, Yeseva_One } from 'next/font/google'
 import './globals.css'
+import Header from '@/components/Header'
 
 const josefinSans = Josefin_Sans({
   variable: '--font-josefin',
@@ -41,6 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${josefinSans.variable} ${yesevaOne.variable}`}>
+        <Header />
         {children}
       </body>
     </html>
