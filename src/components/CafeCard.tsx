@@ -5,6 +5,7 @@ import Link from 'next/link'
 import ExpandIcon from './icons/ExpandIcon'
 import LocationIcon from './icons/LocationIcon'
 import WifiIcon from './icons/WifiIcon'
+import Tag from './Tag'
 
 type CafeCardProps = {
   cafe: Cafe
@@ -41,6 +42,11 @@ function CafeCard({ cafe }: CafeCardProps) {
         <div className={styles.infoItem}>
           <WifiIcon />
           <p>{wifi.speed}</p>
+        </div>
+        <div className={styles.tags}>
+          {cafe.tags.slice(0, 3).map((tag, index) => (
+            <Tag key={index} text={tag} />
+          ))}
         </div>
       </div>
     </div>

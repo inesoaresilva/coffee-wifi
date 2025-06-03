@@ -1,0 +1,50 @@
+.tag {
+  width: fit-content;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+.tag--default {
+  background-color: #b0b0b0;
+  border: 2px solid #888888;
+}
+
+.tag--blue {
+  background-color: #a4b2c1;
+  border: 2px solid #52657a;
+}
+
+.tag--yellow {
+  background-color: #e4cd81;
+  border: 2px solid #a88924;
+}
+
+.tag--orange {
+  background-color: #daa28b;
+  border: 2px solid #9b5031;
+}
+
+.tag--violet {
+  background-color: #c5b3db;
+  border: 2px solid #8c6bb8;
+}
+
+.tag--green {
+  background-color: #b9c6b3;
+  border: 2px solid #7b8d6b;
+}
+
+.tag--pink {
+  background-color: #e7c0c0;
+  border: 2px solid #b88989;
+}
+
+.tag--red {
+  background-color: #d19c9c;
+  border: 2px solid #914747;
+}
+
+.tag--brown {
+  background-color: #c3a38d;
+  border: 2px solid #8a6850;
+}
