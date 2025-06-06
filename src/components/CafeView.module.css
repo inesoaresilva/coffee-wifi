@@ -1,3 +1,15 @@
 .review {
   white-space: pre-line;
 }
+
+.nameWrapper {
+  color: var(--background);
+  padding: 8px;
+  margin-bottom: 24px;
+  background-color: var(--accent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--background);
+  box-shadow: 8px 8px var(--accent-dark);
+}
