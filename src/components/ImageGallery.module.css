@@ -5,3 +5,40 @@
 .image {
   object-fit: cover;
 }
+
+.caption {
+  border-top: 2px solid var(--background);
+  height: 80px;
+  background-color: var(--accent);
+  display: flex;
+}
+
+.description {
+  align-self: center;
+  text-align: center;
+  flex: 1;
+  padding: 16px;
+}
+
+.previousButton {
+  flex: 0 0 48px;
+  padding: 0 16px;
+  border: none;
+  border-right: 2px solid var(--background);
+  background-color: transparent;
+}
+
+.nextButton {
+  flex: 0 0 48px;
+  padding: 0 16px;
+  border: none;
+  border-left: 2px solid var(--background);
+  background-color: transparent;
+}
+
+.previousButton:disabled,
+.nextButton:disabled {
+  background-color: #aaa088; /* muted beige-grey */
+  opacity: 0.7;
+  pointer-events: none;
+}
