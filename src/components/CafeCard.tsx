@@ -6,13 +6,14 @@ import ExpandIcon from './icons/ExpandIcon'
 import LocationIcon from './icons/LocationIcon'
 import WifiIcon from './icons/WifiIcon'
 import Tag from './Tag'
+import ExternalLinkIcon from './icons/ExternalLinkIcon'
 
 type CafeCardProps = {
   cafe: Cafe
 }
 
 function CafeCard({ cafe }: CafeCardProps) {
-  const { name, images, neighbourhood, wifi } = cafe
+  const { name, images, neighbourhood, city, wifi } = cafe
 
   return (
     <div className={styles.overview}>
@@ -36,9 +37,19 @@ function CafeCard({ cafe }: CafeCardProps) {
       </div>
       <div className={styles.info}>
         <div className={styles.infoItem}>
-          <LocationIcon />
-          <p>{neighbourhood}</p>
+          <LocationIcon aria-hidden="true" />
+          <a
+            className={styles.locationUrl}
+            aria-label={`View ${neighbourhood}, ${city} on Google Maps`}
+            href={cafe.googleMapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {neighbourhood}, {city}
+            <ExternalLinkIcon size="16" color="#2c2107" aria-hidden="true" />
+          </a>
         </div>
+
         <div className={styles.infoItem}>
           <WifiIcon />
           <p>{wifi.speed}</p>

@@ -52,6 +52,11 @@
   color: var(--background);
 }
 
+.locationUrl {
+  display: flex;
+  gap: 4px;
+}
+
 .infoItem {
   display: flex;
   gap: 4px;
