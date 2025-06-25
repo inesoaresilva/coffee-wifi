@@ -5,6 +5,7 @@ export interface Cafe {
   slug: string
   images: Image[]
   neighbourhood: string
+  city: string
   googleMapsUrl: string
   wifi: {
     speed: string
